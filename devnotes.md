@@ -37,4 +37,13 @@ php laravel
 
 https://laravel.com/docs/9.x#getting-started-on-windows
 
+https://devanswers.co/install-composer-php-windows-10/
+
+https://getcomposer.org/doc/00-intro.md
+https://getcomposer.org/doc/01-basic-usage.md
+
+
+composer create-project laravel/laravel php --ignore-platform-req=ext-fileinfo
+cd php
+php artisan serve
 

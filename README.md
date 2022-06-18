@@ -1,5 +1,5 @@
 # services
-cross-cloud/stack/OS services project
+A project demonstrating web services and distributed system design across multiple cloud providers, tech stacks, and operating systems.
 
 ## ./apps
 collection of webapps

@@ -1,3 +1,8 @@
+todo
+
+bash .sh scripts
+
+
 UBUNTU
 ============
 

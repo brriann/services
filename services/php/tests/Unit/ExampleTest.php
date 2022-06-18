@@ -15,4 +15,15 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    /**
+     * A failing test
+     *
+     * @return void
+     */
+    // TODO more ExampleTest
+    public function test_that_fails()
+    {
+        $this->assertTrue(false);
+    }
 }

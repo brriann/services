@@ -1,13 +1,28 @@
-## bfoster additions
+## nestjs cli
 
 https://docs.nestjs.com/first-steps
 
 npm i -g @nestjs/cli
 nest new projectName
 
+## RUN LOCALLY
+
+npm install
+npm run start:dev
+
+http://localhost:4000
 
 
+## RUN TESTS
 
+npm run test
+npm run test help
+
+./src/app.controller.spec.ts
+./tests/app.e2e-spec.ts
+
+
+## DEBUG
 
 
 <p align="center">

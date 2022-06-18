@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { HELLO_WORLD } from './constants';
 
 describe('AppController', () => {
   let appController: AppController;
@@ -16,7 +17,12 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+      expect(appController.getHello()).toBe(HELLO_WORLD);
+    });
+
+    // TODO move to ../test/example.spec.ts
+    it('should fail...', () => {
+      expect(1 + 1).toBe(2);
     });
   });
 });

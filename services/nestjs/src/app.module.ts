@@ -14,7 +14,7 @@ import { User } from './modules/user/user.entity';
       port: 5432,
       username: 'postgres',
       password: 'postgres',
-      database: 'test1',
+      database: 'test2',
       entities: [User],
       synchronize: true,
     }),

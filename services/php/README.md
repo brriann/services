@@ -20,6 +20,14 @@ php artisan test
 
 ## DEBUG
 
+## LARAVEL-ELOQUENT-MYSQL
+
+https://laravel.com/docs/8.x/database
+https://laravel.com/docs/8.x/eloquent
+
+php artisan make:model ModelName --migration
+
+## DB SCHEMA MIGRATIONS
 
 
 ### php
@@ -33,6 +41,8 @@ https://getcomposer.org/doc/01-basic-usage.md
 
 
 composer create-project laravel/laravel php --ignore-platform-req=ext-fileinfo
+
+composer require laravel/sail --dev --ignore-platform-req=ext-fileinfo
 
 ### artisan
 

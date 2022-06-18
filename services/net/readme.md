@@ -38,3 +38,6 @@ dotnet ef context
 dotnet ef dbcontext scaffold "Server=127.0.0.1;Initial Catalog=db1;Persist Security Info=False;User ID=sa;Password=S0mePassw0rd!;" Microsoft.EntityFrameworkCore.SqlServer -o Model
 
 https://docs.microsoft.com/en-us/ef/core/get-started/overview/install
+
+## DB SCHEMA MIGRATIONS
+

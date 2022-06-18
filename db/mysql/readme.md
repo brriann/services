@@ -7,6 +7,7 @@ docker exec -ti mysql bash
 
 mysql -p
 
+create database dbname;
 show databases;
 use mysql;
 show tables;

@@ -31,6 +31,9 @@ npm install --save @nestjs/typeorm typeorm pg
 https://docs.nestjs.com/techniques/database
 https://medium.com/@gausmann.simon/nestjs-typeorm-and-postgresql-full-example-development-and-project-setup-working-with-database-c1a2b1b11b8f
 
+## DB SCHEMA MIGRATIONS
+
+
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>

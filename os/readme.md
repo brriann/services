@@ -9,6 +9,9 @@ SSMS
 PgAdmin
 MySQL Workbench
 
+Insomnia
+Postman
+
 git
 
 node

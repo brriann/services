@@ -26,6 +26,11 @@ https://code.visualstudio.com/docs/containers/quickstart-aspnet-core
 WINDOWS
 ==============
 
+dotnet cli
+dotnet restore
+dotnet build
+dotnet run
+
 nestjs
 
 https://docs.nestjs.com/first-steps
@@ -46,4 +51,16 @@ https://getcomposer.org/doc/01-basic-usage.md
 composer create-project laravel/laravel php --ignore-platform-req=ext-fileinfo
 cd php
 php artisan serve
+php artisan list
+php artisan test
 
+https://laravel.com/docs/5.0/artisan
+
+postgres
+
+
+
+t-sql / sql server
+
+docker pull mcr.microsoft.com/mssql/server
+docker run -it mcr.microsoft.com/mssql/server:latest bash

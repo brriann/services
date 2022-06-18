@@ -1,3 +1,26 @@
+
+## bfoster additions
+
+https://laravel.com/docs/9.x#getting-started-on-windows
+
+https://devanswers.co/install-composer-php-windows-10/
+
+https://getcomposer.org/doc/00-intro.md
+https://getcomposer.org/doc/01-basic-usage.md
+
+
+composer create-project laravel/laravel php --ignore-platform-req=ext-fileinfo
+cd php
+composer update --ignore-platform-reqs
+php artisan serve
+php artisan list
+php artisan test
+
+https://laravel.com/docs/5.0/artisan
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

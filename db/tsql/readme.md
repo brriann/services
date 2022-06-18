@@ -6,3 +6,5 @@ docker run --name tsql -it mcr.microsoft.com/mssql/server:latest bash
 SSMS
 SQL Profiler
 
+Dockerfile
+https://towardsdatascience.com/build-a-mssql-docker-container-800166ecca21

@@ -11,3 +11,5 @@ exit
 
 MySQL Workbench
 
+Dockerfile
+https://stackoverflow.com/questions/25920029/setting-up-mysql-and-importing-dump-within-dockerfile

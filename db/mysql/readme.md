@@ -1,15 +1,27 @@
 https://hub.docker.com/_/mysql
 
 docker pull mysql
-docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:latest
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:latest
+
 docker exec -ti mysql bash
 
-mysql -p root
+mysql -p
+
 show databases;
+use mysql;
+show tables;
+select * from tablename;
+
 exit
 exit
 
+docker stop mysql
+docker start mysql
+
 MySQL Workbench
+localhost:3306
+root
+root
 
 Dockerfile
 https://stackoverflow.com/questions/25920029/setting-up-mysql-and-importing-dump-within-dockerfile

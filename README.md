@@ -1,20 +1,28 @@
 # services
-A project demonstrating web services and distributed system design across multiple cloud providers, tech stacks, and operating systems.
+A project demoing web services and distributed system design across multiple cloud providers, tech stacks, and operating systems.
 
-## ./apps
+## goals
+This project is meant to do several things:
+- serve as a demo of patterns and best practices.
+- provide templates and setup for rapid dev
+- etc
+
+## project contents
+
+#### ./apps
 collection of webapps
 
-## ./cloud
+#### ./cloud
 cloud provider specifics
 
-## ./db
+#### ./db
 database engines
 
-## ./os
+#### ./os
 operating system specifics
 
-## ./services
+#### ./services
 web services
 
-## ./system
+#### ./system
 distributed system elements

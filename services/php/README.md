@@ -1,4 +1,26 @@
 
+## Creating a Laravel Project
+
+(creates a new Laravel app in the ./app-name folder)
+curl -s https://laravel.build/app-name | bash
+
+cd app-name
+./vendor/bin/sail up
+
+
+## Running with Sail on Ubuntu
+
+(stop mysql if running on port 3306)
+systemctl status mysqld
+systemctl stop mysqld
+
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+
+sail up 
+sail up -d
+
+
+
 ## php cli
 
 https://laravel.com/docs/9.x#getting-started-on-windows
